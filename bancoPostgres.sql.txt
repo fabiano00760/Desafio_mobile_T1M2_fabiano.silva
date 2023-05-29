@@ -1,0 +1,9 @@
+CREATE TABLE usuario (
+      id SERIAL PRIMARY KEY,
+      senha VARCHAR(255) NOT NULL,
+      nome VARCHAR(255) NOT NULL,
+      nome_teste VARCHAR(255) NOT NULL,
+      status VARCHAR(100) NOT NULL,
+      data_execução DATE NOT NULL
+
+  );
